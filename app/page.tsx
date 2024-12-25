@@ -1,8 +1,13 @@
 import { CardWithForm } from './card';
+import Particles from '@/components/particles';
 
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center h-screen p-4">
+      <Particles
+        className="absolute inset-0 -z-10 animate-fade-in"
+        quantity={1000}
+      />
       <div className="mb-5">
         <img
           src={`/untitled.png`}
