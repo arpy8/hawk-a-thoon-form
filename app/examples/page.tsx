@@ -1,6 +1,4 @@
 import { CardWithForm2 } from '../card';
-// import Image from 'next/image';
-import Particles from '@/components/particles';
 
 const data = [
     {

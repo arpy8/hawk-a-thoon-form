@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { FormCard } from './card';
-import Particles from '@/components/particles';
 
 export default function Home() {
   return (
