@@ -26,10 +26,6 @@ const data = [
 export default function WeatherPage() {
     return (
         <div className='animate-fade-in'>
-            <Particles
-                className="fixed inset-0 -z-10 animate-pulse"  
-                quantity={600}
-            />
             <div className='text-center m-10 text-4xl font-bold'>
                 <h1>Example Projects</h1>
             </div>

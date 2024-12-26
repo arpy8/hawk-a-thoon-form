@@ -9,10 +9,6 @@ export default function Home() {
       <Head>
         <title>Hawk-a-thoon&apos;25</title>
       </Head>
-      <Particles
-        className="fixed inset-0 -z-10 animate-pulse"
-        quantity={600}
-      />
       <div className="mb-5">
         <Image
           src='/untitled.png'

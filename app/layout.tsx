@@ -4,6 +4,7 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import type { Metadata } from "next"
 import "./globals.css"
+import Particles from "@/components/particles"
 
 export const metadata: Metadata = {
   title: "Hawk-a-thoon'25",
@@ -25,6 +26,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
+          <Particles
+            className="fixed inset-0 -z-10"
+            quantity={125}
+          />
           <main className="flex-grow container mx-auto px-4">
             {children}
           </main>
