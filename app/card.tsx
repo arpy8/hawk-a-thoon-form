@@ -34,7 +34,7 @@ export function FormCard({ title = "", desc = "", link = ""}: CardWithFormProps)
   );
 }
 
-export function CardWithForm2({ title="", desc="Google Form", link="", image="" }: CardWithFormProps) { 
+export function ProjectCard({ title="", desc="Google Form", link="", image="" }: CardWithFormProps) { 
   return (
     <Card className="w-[250px] text-center">
       <CardHeader>

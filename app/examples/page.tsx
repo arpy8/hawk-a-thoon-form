@@ -1,4 +1,4 @@
-import { CardWithForm2 } from '../card';
+import { ProjectCard } from '../card';
 
 const data = [
     {
@@ -21,7 +21,7 @@ const data = [
     },
 ]
 
-export default function WeatherPage() {
+export default function ExamplePage() {
     return (
         <div className='animate-fade-in'>
             <div className='text-center m-10 text-4xl font-bold'>
@@ -31,7 +31,7 @@ export default function WeatherPage() {
                 {
                     data.map((item, index) => {
                         return (
-                            <CardWithForm2 key={index} title={item.title} desc={item.desc} link={item.link} image={item.image} />
+                            <ProjectCard key={index} title={item.title} desc={item.desc} link={item.link} image={item.image} />
                         )
                     })
                 }
