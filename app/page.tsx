@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <div className="mb-5">
         <Image
-          src='/untitled.png'
+          src='/poster.png'
           alt="poster"
           className="rounded-md border-2 border-[#fff]-500/20 max-w-full sm:w-80"
           width={600}
