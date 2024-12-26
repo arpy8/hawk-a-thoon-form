@@ -18,8 +18,16 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col sm:flex-row sm:space-x-5 space-y-5 sm:space-y-0">
-        <FormCard title="VIT Students" link="https://forms.gle/SbnGYzpEFyGXrVVC7" />
-        <FormCard title="External Participants" link="https://forms.gle/jvTTsyrwFgxRahHm9" />
+        <FormCard
+          title="VIT Students"
+          link="https://forms.gle/SbnGYzpEFyGXrVVC7"
+          desc="Google Form"
+        />
+        <FormCard
+          title="External Participants"
+          link="https://forms.gle/jvTTsyrwFgxRahHm9"
+          desc="Google Form"
+        />
       </div>
     </div>
   );
